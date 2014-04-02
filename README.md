@@ -1,36 +1,24 @@
 # anagrams
 
-FIXME: description
+I can't find the original URL for this kata as it seems to be gone. I'm just going off the
+version that Joe Bowbeer posted at http://bitbucket.org/joebowbeer/anagrams . 
 
 ## Installation
 
-Download from http://example.com/FIXME.
+You're best off using leiningen to build and run. A build can be made with
+    $ lein uberjar
 
 ## Usage
 
-FIXME: explanation
+Once you have a jar created
 
-    $ java -jar anagrams-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ java -jar anagrams-0.1.0-standalone.jar <wordlist-file>
+    
+Wordlist-file should have one word per line. I used the one in test. It's not robust for
+handling punctuation and so forth.
 
 ## License
 
 Copyright © 2014 FIXME
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Licenes?!!! I don't need no stinkin' licences!!!
